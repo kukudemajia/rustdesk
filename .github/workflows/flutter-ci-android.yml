@@ -104,13 +104,6 @@ jobs:
         job:
           - {
               arch: x86_64,
-              target: aarch64-linux-android,
-              os: ubuntu-20.04,
-              extra-build-features: "",
-              openssl-arch: android-arm64
-            }
-          - {
-              arch: x86_64,
               target: armv7-linux-androideabi,
               os: ubuntu-18.04,
               extra-build-features: "",
